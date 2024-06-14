@@ -48,7 +48,7 @@
     align-items: center;
     width: 100%;
     border-bottom: 4px solid var(--botao-ativo);
-    border-left: 2px solid var (--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
@@ -66,6 +66,10 @@
   border-bottom: 4px solid var(--verde);
 }
   
+.abas-textos{
+  background-color: var(--texto-fundo);
+}
+
 @media screen and (min-width: 768px) {
     .botoes {
          display: flex;
@@ -78,4 +82,4 @@
     .botoes:last-child {
          border-radius: 0 40px 0 0;
     }
-  }   
+  }         
